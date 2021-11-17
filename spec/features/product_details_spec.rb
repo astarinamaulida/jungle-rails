@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.feature "navigate from the home page to the product detail page", type: :feature, js: true do
+RSpec.feature "Navigate from the home page to the product detail page", type: :feature, js: true do
 
   # SETUP
   before :each do
