@@ -23,4 +23,4 @@ RSpec.feature "Visitors can add the product in the homepage to the cart ", type:
     page.first('article.product').click_on 'Add'
     expect(page).to have_content 'My Cart (1)'
   end
-end 
+end
