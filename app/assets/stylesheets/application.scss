@@ -2,6 +2,7 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "font-awesome";
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins&display=swap');
 
 // App
 @import "products";
@@ -11,7 +12,48 @@ body {
   padding-top: 70px;
 }
 
+h1 {
+  font-size: 30px;
+  color: rgb(89, 122, 160);
+  margin-top: 80px; 
+}
+
 // Bootstrap adjustments
 form.button_to {
   display: inline;
+}
+
+// Navbar
+.navbar-custom { background-color: rgb(172, 206, 221) !important; }
+.navbar-brand {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 60px;
+  color: white;
+  display: flex;
+  align-content: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  :hover {
+    color: rgb(89, 122, 160);
+  }
+}
+.navbar-nav {
+  a {
+    align-content: center;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 12px;
+  }
+  :hover {
+    color: rgb(89, 122, 160);
+  }
+}
+.login-signup{
+  display: flex;
+  align-content: center;
+  gap: 50px;
+  margin-left: 100px;
+  margin-top: 37px;
 }

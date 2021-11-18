@@ -6,6 +6,8 @@ main section.categories-show {
     flex-direction:  row;
     flex-wrap:       wrap;
     justify-content: space-around;
+    margin-top:      15px;
+    
 
     .product {
       // flex:      1;
@@ -14,11 +16,18 @@ main section.categories-show {
       position:  relative;
 
       border:        1px solid #ccc;
+      box-shadow: 5px 10px rgb(223, 223, 236);
       border-radius: 5px;
       padding:       15px;
       padding-bottom: 80px;
-      margin-top:    20px;
+      margin-top:    60px;
+      font-size:     13px;
       // margin:        10px;
+
+      h4 {
+        color: rgb(89, 122, 160);
+        margin-top: 40px;
+      }
 
       header img {
         max-width: 100%;
@@ -31,7 +40,6 @@ main section.categories-show {
         position: absolute;
         bottom: 0;
         left:   0;
-        background-color: #EEE;
         padding: 15px;
         border-bottom-left-radius: 5px;
         border-bottom-right-radius: 5px;
@@ -46,10 +54,12 @@ main section.categories-show {
         top: 0;
         right: 0;
         padding: 10px;
-        background-color: #eee;
+        background-color: rgb(89, 122, 160);
         border-top-right-radius: 4px;
         border-bottom-left-radius: 20px;
         font-size: 0.8em;
+        font-weight: bold;
+        color: white
       }
 
       // Sold out badge
@@ -60,7 +70,7 @@ main section.categories-show {
         padding: 10px;
         font-weight: bold;
         color: white;
-        background-color: rgb(211, 173, 173);
+        background-color: rgb(163, 169, 175);
         border-top-right-radius: 4px;
         border-bottom-left-radius: 20px;
         font-size: 0.8em;
@@ -68,7 +78,7 @@ main section.categories-show {
 
       &:hover {
 
-        border-color: #999;
+        border-color: rgb(157, 171, 192);
 
         footer {
           opacity: 1.0;
