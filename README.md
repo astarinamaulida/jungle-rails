@@ -19,10 +19,12 @@ I hope you enjoy the app :>
 
 
 
+
 *The customer can add product(s) to the cart, pay with card and confirm payment.*
 *There will be notification popped up at the top of the page that customer's order details has been sent to email*
 
 !["Order process"](https://github.com/astarinamaulida/jungle-rails/blob/master/public/gif/order.gif?raw=true)
+
 
 
 
@@ -32,9 +34,11 @@ I hope you enjoy the app :>
 
 
 
+
 *The customer can sign out and login back.*
 
 !["Signout and Login"](https://github.com/astarinamaulida/jungle-rails/blob/master/public/gif/signout_login_back.gif?raw=true)
+
 
 
 
@@ -44,9 +48,11 @@ I hope you enjoy the app :>
 
 
 
+
 *Admin-only pages.*
 
 !["Admin-pages"](https://github.com/astarinamaulida/jungle-rails/blob/master/public/gif/admin_navigation.gif?raw=true)
+
 
 
 
